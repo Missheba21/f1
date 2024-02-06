@@ -6,8 +6,8 @@ from keras.models import Sequential
 from keras.layers import Conv2D,MaxPooling2D,Dense,Flatten,Dropout
 import matplotlib.pyplot as plt
 #from keras.layers.normalization import BatchNormalization
-#from keras_preprocessing import image
-#from tensorflow.keras.preprocessing.image import ImageDataGenerator
+from keras_preprocessing import image
+from tensorflow.keras.preprocessing.image import ImageDataGenerator
 
 ## step 2
 train_dir="../.github/workflows/Original_Images/"
