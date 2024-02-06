@@ -10,7 +10,7 @@ import matplotlib.pyplot as plt
 #from tensorflow.keras.preprocessing.image import ImageDataGenerator
 
 ## step 2
-train_dir="../input/face-recognition-dataset/Original Images/Original Images/"
+train_dir="../.github/workflows/Original_Images/"
 generator = ImageDataGenerator()
 train_ds = generator.flow_from_directory(train_dir,target_size=(224, 224),batch_size=32)
 classes = list(train_ds.class_indices.keys())
