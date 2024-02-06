@@ -1,4 +1,0 @@
-cnnfaceenv/*
-__pycache__/*
-dataset/*
-trained_model.h5
