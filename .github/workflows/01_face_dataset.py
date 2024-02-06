@@ -16,6 +16,8 @@ from sklearn.metrics import roc_curve, auc
 from sklearn.metrics import accuracy_score
 #from keras.utils import np_utils
 import itertools
+import tensorflow as tf
+import torch
 ## step 2
 #load dataset
 data = np.load('.github/workflows/ORL_faces.npz') 
