@@ -6,7 +6,7 @@ pillow
 requests
 h5py
 tensorflow==2.15.0
-keras==2.2.0
+keras==2.15.0
 opencv-python
 opencv-contrib-python
 
