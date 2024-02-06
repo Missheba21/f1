@@ -18,7 +18,7 @@ from sklearn.metrics import accuracy_score
 import itertools
 ## step 2
 #load dataset
-data = np.load('ORL_faces.zip') 
+data = np.load('ORL_faces.zip\ORL_faces.npz') 
 
 # load the "Train Images"
 x_train = data['trainX']
