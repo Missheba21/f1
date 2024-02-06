@@ -63,3 +63,7 @@ def predict_image(image_path):
     pred = model.predict(images, batch_size=32)
     print("Actual: "+(image_path.split("/")[-1]).split("_")[0])
     print("Predicted: "+classes[np.argmax(pred)])
+
+
+#step 7
+predict_image("../input/face-recognition-dataset/Original Images/Original Images/Brad Pitt/Brad Pitt_102.jpg")
