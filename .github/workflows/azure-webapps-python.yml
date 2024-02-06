@@ -53,7 +53,7 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: face recognition
-        run: python .github/workflows/ex.py
+        run: python .github/workflows/01_face_dataset.py
 
       # Optional: Add step to run tests here (PyTest, Django test suites, etc.)
 
