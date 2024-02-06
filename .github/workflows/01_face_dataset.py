@@ -13,5 +13,5 @@ from sklearn.metrics import confusion_matrix
 from sklearn.metrics import classification_report
 from sklearn.metrics import roc_curve, auc
 from sklearn.metrics import accuracy_score
-from keras.utils import np_utils
+#from keras.utils import np_utils
 import itertools
