@@ -25,7 +25,7 @@ from PIL import Image
 import os
 
 # Path to the folder containing image files
-folder_path = "/path/to/folder"
+folder_path = "/.github/workflows/"
 
 # List all files in the folder
 files = os.listdir(folder_path)
