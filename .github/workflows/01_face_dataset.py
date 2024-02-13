@@ -34,6 +34,26 @@ folder_path = "../f1/.github/workflows/Original_Images/Akshay_Kumar/"
 
 # List all files in the folder
 files = os.listdir(folder_path)
+from PIL import Image
+import os
+
+# List all files in the folder
+files = os.listdir(folder_path)
+
+# Iterate through each file in the folder
+for file_name in files:
+    # Check if the file is an image (you can add more image formats if needed)
+    if file_name.endswith((".jpg", ".png", ".jpeg")):
+        # Construct the full path to the image file
+        image_path = os.path.join(folder_path, file_name)
+        
+        # Open the image using Pillow
+        try:
+            image = Image.open(image_path)
+            # Now you can work with the image, for example, display it
+            image.show()
+        except IOError:
+            print(f"Unable to open image file: {image_path}")
 
 
 
