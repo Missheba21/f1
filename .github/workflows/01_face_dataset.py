@@ -47,7 +47,7 @@ for file_name in files:
         # Now you can work with the image, for example, display it
         image.show()
 
-data = np.load("../f1/.github/workflows/ORL_faces.npz") 
+#data = np.load("../f1/.github/workflows/ORL_faces.npz") 
 
 
 
