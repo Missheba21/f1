@@ -21,7 +21,6 @@ from tensorflow.python.keras.layers import InputLayer, Input
 from tensorflow.python.keras.layers import Reshape, MaxPooling2D
 from tensorflow.python.keras.layers import Conv2D, Dense, Flatten
 
-
-
-
 data = np.load('../github/workflows/ORL_faces.npz') 
+
+
