@@ -24,25 +24,4 @@ from tensorflow.python.keras.layers import Conv2D, Dense, Flatten
 
 
 
-## step 2
-train_dir="f1/.github/workflows/Original_Images/"
-generator = ImageDataGenerator()
-
-from keras.preprocessing.image import ImageDataGenerator
-
-train_datagen = ImageDataGenerator(rescale=1./255)  # Optionally, apply transformations here
-
-train_generator = train_datagen.flow_from_directory(
-    train_dir,
-    target_size=(224, 224),
-    batch_size=3,
-    class_mode='binary'  # or 'categorical' if you have multiple classes
-)
-
-# You can then iterate over train_generator to get batches of data
-
-
-
-train_ds = generator.flow_from_directory(train_dir,target_size=(224, 224),batch_size=3)
-classes = list(train_ds.class_indices.keys())
-
+data = np.load('../github/workflows/ORL_faces.npz') 
