@@ -26,10 +26,6 @@ from tensorflow.python.keras.layers import Conv2D, Dense, Flatten
 from PIL import Image
 import os
 
-
-
-
-
 import cv2
 
 
