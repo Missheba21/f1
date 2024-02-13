@@ -9,6 +9,8 @@ from tensorflow.keras.layers import BatchNormalization
 from keras_preprocessing import image
 from tensorflow.keras.preprocessing.image import ImageDataGenerator
 
+import matplotlib.pyplot as plt
+import matplotlib.image as mpimg
 
 import matplotlib.pyplot as plt
 import tensorflow as tf
