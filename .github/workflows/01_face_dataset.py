@@ -27,3 +27,8 @@ from tensorflow.python.keras.layers import Conv2D, Dense, Flatten
 ## step 2
 train_dir="f1/.github/workflows/Original_Images/"
 generator = ImageDataGenerator()
+
+
+train_ds = generator.flow_from_directory(train_dir,target_size=(224, 224),batch_size=3)
+classes = list(train_ds.class_indices.keys())
+
