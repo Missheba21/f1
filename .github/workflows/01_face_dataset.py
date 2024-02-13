@@ -33,7 +33,7 @@ files = os.listdir(folder_path)
 # Iterate through each file in the folder
 for file_name in files:
     # Check if the file is an image (you can add more image formats if needed)
-    if file_name.endswith(".jpg") or file_name.endswith(".png") or file_name.endswith(".jpeg"):
+    if file_name.endswith(".jpg"):
         # Construct the full path to the image file
         image_path = os.path.join(folder_path, file_name)
         
