@@ -30,7 +30,7 @@ folder_path = "../f1/.github/workflows/Original_Images/Akshay_Kumar/"
 # List all files in the folder
 files = os.listdir(folder_path)
 from PIL import Image
-image = Image.open('testimage.png')
+image = Image.open('AkshayKumar_0.jpg')
 image.show()
 
 
