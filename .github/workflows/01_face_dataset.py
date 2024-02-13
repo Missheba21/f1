@@ -25,7 +25,7 @@ from PIL import Image
 import os
 
 # Path to the folder containing image files
-folder_path = "/.github/workflows/Original_Images/Akshay_Kumar"
+folder_path = "f1/.github/workflows/Original_Images/Akshay_Kumar"
 
 
 
