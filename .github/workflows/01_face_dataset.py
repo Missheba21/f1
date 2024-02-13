@@ -26,15 +26,15 @@ from tensorflow.python.keras.layers import Conv2D, Dense, Flatten
 from PIL import Image
 import os
 
-# Path to the folder containing image files
-folder_path = "../f1/.github/workflows/Original_Images/Akshay_Kumar/"
+
 
 
 
 import cv2
-import os
 
 
+# Path to the folder containing image files
+folder_path = "../f1/.github/workflows/Original_Images/Akshay_Kumar/"
 
 # List all files in the folder
 files = os.listdir(folder_path)
