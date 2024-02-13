@@ -12,3 +12,4 @@ opencv-contrib-python
 keras-layer-normalization
 keras-preprocessing
 Pillow
+opencv-python
