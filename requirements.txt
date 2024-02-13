@@ -1,10 +1,5 @@
 scikit-learn
 pandas
-libjpeg
-libpng
-libtiff
-libjasper
-libwebp
 pandas-datareader
 matplotlib
 pillow
