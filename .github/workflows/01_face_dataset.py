@@ -34,8 +34,9 @@ files = os.listdir(folder_path)
 from PIL import Image
 image = Image.open('../f1/.github/workflows/Original_Images/Akshay_Kumar/AkshayKumar_0.jpg')
 image.show()
-
 data = np.load("../f1/.github/workflows/ORL_faces.npz") 
+
+
 
 
 
