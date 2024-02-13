@@ -35,20 +35,6 @@ folder_path = "../f1/.github/workflows/Original_Images/Akshay_Kumar/"
 # List all files in the folder
 files = os.listdir(folder_path)
 
-# Iterate through each file in the folder
-for file_name in files:
-    # Check if the file is an image (you can add more image formats if needed)
-    if file_name.endswith(".jpg") or file_name.endswith(".png") or file_name.endswith(".jpeg"):
-        # Construct the full path to the image file
-        image_path = os.path.join(folder_path, file_name)
-        
-        # Open the image using OpenCV
-        image = cv2.imread(image_path)
-        
-        # Now you can work with the image, for example, display it
-        cv2.imshow("Image", image)
-        cv2.waitKey(0)  # Wait for any key press
-        cv2.destroyAllWindows()  # Close the window after any key is pressed
 
 
 
