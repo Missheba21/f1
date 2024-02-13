@@ -5,7 +5,7 @@ matplotlib
 pillow
 requests
 h5py
-tensorflow==2.15.0
+tensorflow==2.3.0
 keras==2.15.0
 opencv-python
 opencv-contrib-python
