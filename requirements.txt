@@ -7,7 +7,6 @@ requests
 h5py
 tensorflow==2.15.0.post1
 keras==2.15.0
-opencv-python
 opencv-contrib-python
 keras-layer-normalization
 keras-preprocessing
