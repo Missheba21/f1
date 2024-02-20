@@ -13,3 +13,4 @@ keras-layer-normalization
 keras-preprocessing
 Pillow
 opencv-python
+ultralytics
